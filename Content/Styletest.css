@@ -1,0 +1,51 @@
+﻿
+/*.navbar-default {
+    background-color: #0c5c82;
+    border-color: #e7e7e7;
+    height:70px;
+    padding-top:10px;
+    color:white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font:bold;
+    font-size:18px;
+}
+
+.navbar-default .navbar-nav>li>a :hover{
+    color: green;
+    font-family: 'Ubuntu', sans-serif;
+    font:bold;
+    font-size:18px;
+}*/
+
+@font-face{
+    font-family:'myfont';
+    src:url('font/GE_SS_Two_Bold.otf')
+}
+@font-face {
+    font-family: 'GESSTOW_Medium';
+    src: url('font/GE_SS_Two_Medium.eot');
+    src: url('font/GE_SS_Two_Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/GE_SS_Two_Medium.woff') format('woff'),
+         url('font/GE_SS_Two_Medium.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.navbar-default {
+    background-color: #0c5c82;
+    border-color: #e7e7e7;
+    height:70px;
+    padding-top:10px;
+    font-family:GESSTOW_Medium;
+   
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-family:GESSTOW_Medium;
+    background-color:red;
+}
